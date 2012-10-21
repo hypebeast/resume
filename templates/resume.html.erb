@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sebastian Ruml Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resume for Sebastian Ruml">
+    <meta name="author" content="Sebastian Ruml">
+
+    <link href="public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="public/css/resume.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header class="jumbotron">
+        <div class="row">
+          <div class="span12">
+            <h3 style="text-align: center; text-style: italic">Resume</h3>
+            <h1 style="padding: 10px 0px; text-align: center; font-size: 60px"><%= data['contact']['name'] %></h1>
+            <span class="" style="text-align: center;"> 
+              <address>
+                <a href="<%= data['contact']['site'] %>" > <%= data['contact']['site'] %> </a><br />
+                <a href="mailto:#"><%= data['contact']['email'] %></a><br />
+                <a> <%= data['contact']['phone'] %> </a>
+              </address>
+            </span>
+          </div>
+        </div>
+      </header>
+
+      <section id="summary">
+        <div class="row">
+          <div class="page-header">
+            <h2>Summary<h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="span12">
+            <% data['summary'].each do |line| %>
+            <%= line %>
+            </br>
+            <% end %>
+          </div>
+        </div>
+      </section>
+
+      <section id="work">
+        <div class="row">
+          <div class="page-header">
+            <h2>Work Experience<h2>
+          </div>
+        </div>
+        <% data['work'].each do |company| %>
+          <div class="row" style="padding: 10px 0 4px 0;">
+            <div class="span8">
+              <h3 style="margin: 0"> <%= company['where']['title'] %>
+              <a href=" <%= company['where']['site'] %> " target="_BLANK">
+                <span class="badge">Website</span></a>
+              </h3>
+            </div>
+            <div class="span4">
+              <h3 class="pull-right" style="margin: 0"> <%= company['where']['location'] %> </h3>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="span6">
+              <h4 style="margin: 0"><em> <%= company['what']['title'] %> </em></h4>
+            </div>
+            <div class="span6">
+              <h4 class="pull-right" style="margin: 0"> <%= company['when'] %> </h4>
+            </div>
+          </div>
+
+          <div class="row" style="margin: 10px 0">
+            <div class="span12">
+              <ul>
+                <% company['description'].each do |line| %>
+                  <li> <%= line %> </li>
+                <% end %>
+              </ul>
+            </div>
+          </div>
+        <% end %>
+      </section>
+
+      <section id="projects">
+        <div class="row">
+          <div class="page-header">
+            <h2>Projects<h2>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="row">
+          <div class="page-header">
+            <h2>Skills<h2>
+          </div>
+
+          <% data['skills'].each do |skill| %>
+            <div class="row">
+              <div class="span12">
+                <h3> <%= skill['name'] %> </h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="span12">
+                <ul>
+                  <% skill['items'].each do |line| %>
+                    <li> <%= line %> </li>
+                  <% end %>
+              </ul>
+              </div>
+            </div>
+          <% end %>
+        </div>
+      </section>
+
+      <section id="education">
+        <div class="row">
+          <div class="page-header">
+            <h2>Education<h2>
+          </div>
+        </div>
+        <% data['education'].each do |school| %>
+          <div class="row" style="padding: 10px 0 4px 0;">
+            <div class="span8">
+              <h3 style="margin: 0"> <%= school['where']['title'] %>
+            </div>
+            <div class="span4">
+              <h3 class="pull-right" style="margin: 0"> <%= school['where']['location'] %> </h3>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="span6">
+              <h4 style="margin: 0"><em> <%= school['what']['title'] %> </em></h4>
+            </div>
+            <div class="span6">
+              <h4 class="pull-right" style="margin: 0"> <%= school['when'] %> </h4>
+            </div>
+          </div>
+
+          <div class="row" style="padding: 10px 0 0 0">
+            <div class="span12">
+              <ul>
+                <% school['description'].each do |line| %>
+                  <%= line %>
+                <% end %>
+              </ul>
+            </div>
+          </div>
+        <% end %>
+      </section>
+
+      <section id="languages">
+        <div class="row">
+          <div class="page-header">
+            <h2>Languages<h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="span12">
+            <ul>
+              <% data['languages'].each do |language| %>
+                <li> <%= language %> </li>
+              <% end %>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="prof_interesests">
+        <div class="row">
+          <div class="page-header">
+            <h2>Professional Interests<h2>
+          </div>
+        </div>
+      </section>
+
+      <section id="interesests">
+        <div class="row">
+          <div class="page-header">
+            <h2>Interests<h2>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

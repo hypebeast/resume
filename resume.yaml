@@ -1,0 +1,124 @@
+tex:
+  template: "templates/resume.tex.erb"
+  output: "resume.tex"
+  pdf: "resume.pdf"
+
+html:
+  template: "templates/resume.html.erb"
+  output: "resume.html"
+
+contact:
+  name: "Sebastian Ruml"
+  phone: "(+49) 15151698366"
+  email: "sebastian.ruml@gmail.com"
+  site: "http://www.sebastianruml.com"
+  github: "https://github.com/hypebeast"
+
+address:
+  street: "Volkartstr. 35"
+  city: "80634 Munich"
+  country: "Germany"
+
+objective:
+  - "Seeking a position as a software developer to improve my skills and work with a motivated team."
+
+summary:
+  - "I am a human turned software engineer who toils by day and codes by night. I like doing things with C#, C++, Python, Ruby, Javascript, and pretty much any other technology I can get my hands on. Sometimes I even make my hands dirty with C on microcontrollers, to build funny things. I love to solve difficult problems with the latest trends and technologies."
+  - "TODO: Add short description about me and what i have done so far."
+
+work:
+  -
+    where:
+      title: "3M|GTG"
+      location: "Munich, Germany"
+      site: "http://www.3mgtg.com"
+    what:
+      title: "Lead Software Department"
+    when: "January 2006 - present"
+    description:
+      - "TODO"
+      - "TODO"
+      - "TODO"
+
+projects:
+  -
+    name: "Orca"
+    description: "TODO"
+    link: "TODO"
+  -
+    name: "PythonDrop"
+    description: "TODO"
+    link: "TODO"
+  -
+    name: "RSTimeline"
+    description: "TODO"
+    link: "TODO"
+  -
+    name: "Morphine"
+    description: "TODO"
+    link: "TODO"
+
+skills:
+  -
+    name: "Languages"
+    items:
+      - "CSharp, C, C++"
+      - "Scala, Java"
+      - "Python, Ruby"
+      - "Javascript, related APIs, libraries like jQuery, knockout.js"
+      - "HTML, CSS"
+      - "IEC 61131-3"
+      - "Linux CL-Tools (e.g. sed, awk, bash, zsh)"
+  -
+    name: "Technologies"
+    items:
+      - ".Net Framework (deep insight)"
+      - "DirectShow"
+      - "DirectX, OpenGL (both learning)"
+      - "Ruby on Rails, Django (both learning), Flask, Sinatra"
+      - "QT, Gtk+"
+      - "Linux Kernel Programming"
+      - "Beckhoff TwinCat System and Ethercat (experienced and build a lot of projects with these technologies)"
+      - "Broadcast Technologies (SDI, Framelock, Genlock)"
+      - "Web technologies: jQuery, knockout.js, etc."
+  -
+    name: "Tools"
+    items:
+      - "IDEs: Visual Studio 2008/2010, Eclipse, Atmel Studio"
+      - "Editors: Vim (my favorite editor), Submlime Text, etc."
+      - "VCS: Git, SVN"
+      - "Build Tools: MSBuild, rake, make, etc."
+      - "Bashes: zsh, bash"
+      - "Compilers: gcc"
+  -
+    name: "Operating Systems"
+    items:
+      - "Linux: Deep understanding and experience with Linux and various distributions (10 years experience)"
+      - "Mac OS X"
+      - "Windows"
+  -
+    name: "Project Management"
+    items:
+      - "MS Project, GTD"
+
+education:
+  -
+    where:
+      title: "University of Applied Sciences Augsburg"
+      location: "Augsburg, Germany"
+    what:
+      title: "Computer Science"
+    when: "October 2001 - December 2005"
+    description:
+      - "TODO"
+
+languages:
+  - "German: Native speaker"
+  - "English: Fluent"
+
+professional_interests:
+  - "TODO"
+
+interests:
+  - "Sports, Movies, Travelling and enjoy a good time with my friends."
+
