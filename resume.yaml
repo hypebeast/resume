@@ -23,7 +23,7 @@ objective:
   - "Seeking a position as a software developer to improve my skills and work with a motivated team."
 
 summary:
-  - "I am a human turned software engineer who toils by day and codes by night. I like doing things with C#, C++, Python, Ruby, Javascript, and pretty much any other technology I can get my hands on. Sometimes I even make my hands dirty with C on microcontrollers, to build funny things. I love to solve difficult problems with the latest trends and technologies."
+  - "I am a human turned software engineer who toils by day and codes by night. I like doing things with C#, C++, Python, Ruby, Javascript, and pretty much any other technology I can get my hands on. Sometimes I even make my hands dirty with C on microcontrollers. I love to solve difficult problems with the latest trends and technologies."
   - "TODO: Add short description about me and what i have done so far."
 
 work:
@@ -36,9 +36,11 @@ work:
       title: "Lead Software Department"
     when: "January 2006 - present"
     description:
-      - "TODO"
-      - "TODO"
-      - "TODO"
+      - "TODO: Allgemeine Beschreibung was meine Aufgaben bei der GTG waren. Welche Technologien werden in der GTG verwendet? Leitung Abteilung, etc."
+      - "TODO: MTT"
+      - "TODO: XSlider"
+      - "TODO: RotationScreen"
+      - "TODO: Was noch für ein Projekt?"
 
 projects:
   -
