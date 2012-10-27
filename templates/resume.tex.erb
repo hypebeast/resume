@@ -1,0 +1,105 @@
+% Sebastian Ruml's Resume
+% URL: https://github.com/hypebeast/resume
+%
+% Based on resume tex file by Kamil Wojcicki
+% URL: http://linux.dsplabs.com.au/resume-writing-example-latex-template-linux-curriculum-vitae-professional-cv-layout-format-text-p54/
+
+\documentclass[margin]{resume}
+
+\usepackage{graphicx}
+
+\begin{document}
+
+\name{\Huge{Sebastian Ruml}}
+
+\begin{resume}
+
+\vspace{15mm}
+
+    %---------------------------------------------------------------------------------------------
+    % Contact
+    %---------------------------------------------------------------------------------------------
+    \section{\mysidestyle \textbf{\large{CONTACT}}}
+
+    \textbf{NAME}: <%= data['contact']['name'] %>\\
+    \textbf{EMAIL}: <%= data['contact']['email'] %>\\
+    \textbf{SITE}: <%= data['contact']['site'] %>\\
+    \textbf{GITHUB}: <%= data['contact']['github'] %>
+
+\sectionline
+
+    %---------------------------------------------------------------------------------------------
+    % Summary
+    %---------------------------------------------------------------------------------------------
+    \section{\mysidestyle \textbf{\large{SUMMARY}}}
+
+    <% data['summary'].each do |line| %>
+      <%= line %> \\\\
+    <% end %>
+
+\sectionline
+
+    %---------------------------------------------------------------------------------------------
+    % Work Experience
+    %---------------------------------------------------------------------------------------------
+    \section{\mysidestyle \textbf{\large{WORK EXPERIENCE}}}
+
+    TODO
+
+\sectionline
+
+    %---------------------------------------------------------------------------------------------
+    % Projects
+    %---------------------------------------------------------------------------------------------
+    \section{\mysidestyle \textbf{\large{PROJECTS}}}
+
+    TODO
+
+\sectionline
+
+    %---------------------------------------------------------------------------------------------
+    % Skills
+    %---------------------------------------------------------------------------------------------
+    \section{\mysidestyle \textbf{\large{SKILLS}}}
+
+    TODO
+
+\sectionline
+
+    %---------------------------------------------------------------------------------------------
+    % Education
+    %---------------------------------------------------------------------------------------------
+    \section{\mysidestyle \textbf{\large{EDUCATION}}}
+
+    TODO
+
+\sectionline
+
+    %---------------------------------------------------------------------------------------------
+    % Languages
+    %---------------------------------------------------------------------------------------------
+    \section{\mysidestyle \textbf{\large{LANGUAGES}}}
+
+    TODO
+
+\sectionline
+
+    %---------------------------------------------------------------------------------------------
+    % Professional Interests
+    %---------------------------------------------------------------------------------------------
+    \section{\mysidestyle \textbf{\large{PROFESSIONAL INTERESTS}}}
+
+    TODO
+
+\sectionline
+
+    %---------------------------------------------------------------------------------------------
+    % Interests
+    %---------------------------------------------------------------------------------------------
+    \section{\mysidestyle \textbf{\large{INTERESTS}}}
+
+    TODO
+
+
+\end{resume}
+\end{document}

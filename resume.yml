@@ -9,22 +9,51 @@ html:
 
 contact:
   name: "Sebastian Ruml"
-  phone: "(+49) 15151698366"
   email: "sebastian.ruml@gmail.com"
   site: "http://www.sebastianruml.com"
   github: "https://github.com/hypebeast"
-
-address:
-  street: "Volkartstr. 35"
-  city: "80634 Munich"
-  country: "Germany"
+  xing: "TODO"
 
 objective:
   - "Seeking a position as a software developer to improve my skills and work with a motivated team."
 
 summary:
-  - "I am a human turned software engineer who toils by day and codes by night. I like doing things with C#, C++, Python, Ruby, Javascript, and pretty much any other technology I can get my hands on. Sometimes I even make my hands dirty with C on microcontrollers. I love to solve difficult problems with the latest trends and technologies."
-  - "TODO: Add short description about me and what i have done so far."
+  -
+    >
+      I am a human turned software engineer who toils by day and codes by night. I like
+      doing things with CSharp, C++, Python, Ruby, Javascript, and pretty much any other technology
+      I can get my hands on. Sometimes I even make my hands dirty with C on microcontrollers,
+      to build funny things. I love to solve problems with the latest trends and technologies.
+  -
+    >
+      At the age of 14 I wrote my first lines of code in Basic on a 80286 PC. From that time
+      on I was hooked to everything that was related to computers. Some years later, I
+      studied (2001 - 2005) at the University of Applied Sciences Augsburg and graduated in
+      Computer Science. During my first year at the University I was introduced to the Open
+      Source community. For internship I worked at IBM where I extended the crash dump system
+      of the Linux Kernel. I wrote my diploma thesis about the detection and preventation of covert
+      communication channels at Astaro AG.
+  -
+    >
+      In the year 2004, my friend and I realized together my first Open Source program: XMMS Weasel.
+      Since that time I'm passionate about the Open Source community and I enjoy to contribute during
+      my spare time.
+  -
+    >
+      At the beginning of 2006 I joined 3M|GTG where I architected and developed software for
+      Digital Signage applications. I gained considerable experience in CSharp, PLC, Python development
+      and network programming during building exciting Digital Signage systems. Especially I love
+      to develop software for connecting the real world (e.g. mechanical systems) to the software world.
+      Moreover, I have extensive experience in leadership in technology including design and development
+      of applications, team management, developer mentoring, problem solving and crisis mangement.
+  -
+    >
+      During my spare time I love to work on my projects, to improve my ZSH, VI and Linux skills.
+      If I don't do some programming, I read Hackernews, Stackoverflow and read some code on Github.
+  -
+    >
+      At the moment I discover the wonderful world of web development with the latest technologies
+      (HTML5, Javascript, Sinatra, Flask, Websockets, WebGL).
 
 work:
   -
@@ -35,30 +64,49 @@ work:
     what:
       title: "Lead Software Department"
     when: "January 2006 - present"
-    description:
-      - "TODO: Allgemeine Beschreibung was meine Aufgaben bei der GTG waren. Welche Technologien werden in der GTG verwendet? Leitung Abteilung, etc."
-      - "TODO: MTT"
-      - "TODO: XSlider"
-      - "TODO: RotationScreen"
-      - "TODO: Was noch für ein Projekt?"
+    description: "TODO: What am i doing??"
+    projects:
+      -
+        title: "Meta Twist Tower"
+        description: "TODO"
+        link: ""
+      -
+        title: "XSlider"
+        description: "TODO"
+        link: ""
+      -
+        title: "RotationScreen"
+        description: "TODO"
+        link: ""
 
 projects:
   -
     name: "Orca"
-    description: "TODO"
-    link: "TODO"
+    description:
+      >
+        Orca is a UAV (Unmanned aerial vehicle) like the orcas from Command and Conquer.
+        This project contains all the resources for building your own orca: mechanical
+        drawings, controller board and the software (firmware and ground control station).
+        The goal is to build the first flying Orca.
+    when: "2012 - present"
+    link: "https://github.com/hypebeast/Orca"
   -
     name: "PythonDrop"
-    description: "TODO"
-    link: "TODO"
-  -
-    name: "RSTimeline"
-    description: "TODO"
-    link: "TODO"
+    description:
+      >
+        PythonDrop is a Dropbox clone written in Python. It's written in Python and has a web interface
+        to control and configure it.
+    when: "2011 - present"
+    link: "https://github.com/hypebeast/PythonDrop"
   -
     name: "Morphine"
-    description: "TODO"
-    link: "TODO"
+    description:
+      >
+        Morphin is a simple video-player aiming to be similar to KDE's Dragonplayer
+        (former Codeine). It's based on Python, Gtk+ and Gstreamer. The main focus is on
+        usability, ergonomics and simplicity.
+    when: "2008"
+    link: "https://code.google.com/p/morphin/"
 
 skills:
   -
@@ -119,8 +167,11 @@ languages:
   - "English: Fluent"
 
 professional_interests:
-  - "TODO"
+  - "Microcontroller, PLC programming, Graphics programming, Data Analysis, Networks and Protocols"
 
 interests:
   - "Sports, Movies, Travelling and enjoy a good time with my friends."
+
+press:
+  - "TO COME..."
 

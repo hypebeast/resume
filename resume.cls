@@ -6,7 +6,8 @@
 % Original document by Michael DeCorte
 %
 \usepackage{color}
-\definecolor{ColorOne}{rgb}{0.7,0.05,0.05}
+%\definecolor{ColorOne}{rgb}{0.7,0.05,0.05}
+\definecolor{ColorOne}{rgb}{0.6, 0.73, 0.35}
 \typeout{Document Style `resume' <26 Sep 89, Dec 07>.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

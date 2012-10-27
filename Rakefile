@@ -3,7 +3,7 @@ require 'erb'
 require 'yaml'
 
 # Load data from YAML file
-data = YAML.load_file("resume.yaml")
+data = YAML.load_file("resume.yml")
 
 # Create 'output' directory if it doesn't exist
 #Dir.mkdir("output") unless File.exists?("output") && File.directory?("output")
@@ -31,12 +31,12 @@ task :tex => data['tex']['output']
 
 desc "Generate the PDF file from the Latex file"
 task :pdf => [:tex] do
-  puts "Generating PDF..."
+  `latexmk -pdf #{data['tex']['output']}`
 end
 
 desc "Cleans everything up"
 task :clean do
-  `rm -f *.tex *.log *.pdf  *.html`
+  `rm -f *.tex *.log *.pdf *.html *.aux *.fls *.dvi *.fdb_latexmk`
 end
 
 desc "Publishes the HTML and PDF output to the Github pages"
