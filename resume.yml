@@ -18,42 +18,45 @@ objective:
   - "Seeking a position as a software developer to improve my skills and work with a motivated team."
 
 summary:
-  -
-    >
-      I am a human turned software engineer who toils by day and codes by night. I like
-      doing things with CSharp, C++, Python, Ruby, Javascript, and pretty much any other technology
-      I can get my hands on. Sometimes I even make my hands dirty with C on microcontrollers,
-      to build funny things. I love to solve problems with the latest trends and technologies.
-  -
-    >
-      At the age of 14 I wrote my first lines of code in Basic on a 80286 PC. From that time
-      on I was hooked to everything that was related to computers. Some years later, I
-      studied (2001 - 2005) at the University of Applied Sciences Augsburg and graduated in
-      Computer Science. During my first year at the University I was introduced to the Open
-      Source community. For internship I worked at IBM where I extended the crash dump system
-      of the Linux Kernel. I wrote my diploma thesis about the detection and preventation of covert
-      communication channels at Astaro AG.
-  -
-    >
-      In the year 2004, my friend and I realized together my first Open Source program: XMMS Weasel.
-      Since that time I'm passionate about the Open Source community and I enjoy to contribute during
-      my spare time.
-  -
-    >
-      At the beginning of 2006 I joined 3M|GTG where I architected and developed software for
-      Digital Signage applications. I gained considerable experience in CSharp, PLC, Python development
-      and network programming during building exciting Digital Signage systems. Especially I love
-      to develop software for connecting the real world (e.g. mechanical systems) to the software world.
-      Moreover, I have extensive experience in leadership in technology including design and development
-      of applications, team management, developer mentoring, problem solving and crisis mangement.
-  -
-    >
-      During my spare time I love to work on my projects, to improve my ZSH, VI and Linux skills.
-      If I don't do some programming, I read Hackernews, Stackoverflow and read some code on Github.
-  -
-    >
-      At the moment I discover the wonderful world of web development with the latest technologies
-      (HTML5, Javascript, Sinatra, Flask, Websockets, WebGL).
+  short:
+    -
+      >
+        I am a human turned software engineer who toils by day and codes by night. I like
+        doing things with CSharp, C++, Python, Ruby, Javascript, and pretty much any other technology
+        I can get my hands on. Sometimes I even make my hands dirty with C on microcontrollers,
+        to build funny things. I love to solve problems with the latest trends and technologies.
+    -
+      >
+        During my spare time I love to work on my projects, to improve my ZSH, VI and Linux skills.
+        If I don't do some programming, I read Hackernews, Stackoverflow and read some code on Github.
+    -
+      >
+        At the moment I discover the wonderful world of web development with the latest technologies
+        (HTML5, Javascript, Sinatra, Flask, Websockets, WebGL).
+
+  long:
+    -
+      >
+        At the age of 14 I wrote my first lines of code in Basic on a 80286 PC. From that time
+        on I was hooked to everything that was related to computers. Some years later, I
+        studied (2001 - 2005) at the University of Applied Sciences Augsburg and graduated in
+        Computer Science. During my first year at the University I was introduced to the Open
+        Source community. For internship I worked at IBM where I extended the crash dump system
+        of the Linux Kernel. I wrote my diploma thesis about the detection and preventation of covert
+        communication channels at Astaro AG.
+    -
+      >
+        In the year 2004, my friend and I realized together my first Open Source program: XMMS Weasel.
+        Since that time I'm passionate about the Open Source community and I enjoy to contribute during
+        my spare time.
+    -
+      >
+        At the beginning of 2006 I joined 3M|GTG where I architected and developed software for
+        Digital Signage applications. I gained considerable experience in CSharp, PLC, Python development
+        and network programming during building exciting Digital Signage systems. Especially I love
+        to develop software for connecting the real world (e.g. mechanical systems) to the software world.
+        Moreover, I have extensive experience in leadership in technology including design and development
+        of applications, team management, developer mentoring, problem solving and crisis mangement.
 
 work:
   -
@@ -61,22 +64,36 @@ work:
       title: "3M|GTG"
       location: "Munich, Germany"
       site: "http://www.3mgtg.com"
-    what:
-      title: "Lead Software Department"
-    when: "January 2006 - present"
-    description: "TODO: What am i doing??"
+      when: "January 2006 - present"
+    positions:
+      -
+        title: "Senior Software Developer"
+        when: "January 2006 - December 2008"
+      -
+        title: "Lead Software Department"
+        when: "January 2009 - present"
+    description:
+      >
+        Since 2009 I'm the leader of the software department and responsible for the development
+        of all software components and the management of the software development team.
     projects:
       -
         title: "Meta Twist Tower"
-        description: "TODO"
-        link: ""
+        description:
+          >
+            TODO
+        link: "http://www.metatwisttower.com"
       -
         title: "XSlider"
-        description: "TODO"
-        link: ""
+        description:
+          >
+            TODO
+        link: "http://xslider.3mgtg.com/en/home.html"
       -
         title: "RotationScreen"
-        description: "TODO"
+        description:
+          >
+            TODO
         link: ""
 
 projects:
@@ -95,7 +112,7 @@ projects:
     description:
       >
         PythonDrop is a Dropbox clone written in Python. It's written in Python and has a web interface
-        to control and configure it.
+        to control and for configuration.
     when: "2011 - present"
     link: "https://github.com/hypebeast/PythonDrop"
   -
@@ -109,9 +126,12 @@ projects:
     link: "https://code.google.com/p/morphin/"
 
 skills:
-  -
+  proglanguages:
     name: "Languages"
-    items:
+    description: "TODO"
+    shortlist:
+      - "TODO"
+    longlist:
       - "CSharp, C, C++"
       - "Scala, Java"
       - "Python, Ruby"
@@ -119,37 +139,59 @@ skills:
       - "HTML, CSS"
       - "IEC 61131-3"
       - "Linux CL-Tools (e.g. sed, awk, bash, zsh)"
-  -
-    name: "Technologies"
-    items:
+    languages:
+      -
+        name: "CSharp"
+        level: "expert"
+        percentage: "80"
+      -
+        name: "C"
+        level: "intermediate"
+        percentage: "70"
+  technologies:
+    name: "Technologies/Frameworks"
+    description: "TODO"
+    shortlist:
+      - "TODO"
+    longlist:
       - ".Net Framework (deep insight)"
-      - "DirectShow"
       - "DirectX, OpenGL (both learning)"
+      - "DirectShow"
       - "Ruby on Rails, Django (both learning), Flask, Sinatra"
       - "QT, Gtk+"
       - "Linux Kernel Programming"
       - "Beckhoff TwinCat System and Ethercat (experienced and build a lot of projects with these technologies)"
       - "Broadcast Technologies (SDI, Framelock, Genlock)"
       - "Web technologies: jQuery, knockout.js, etc."
-  -
+  tools:
     name: "Tools"
-    items:
+    description: "TODO"
+    shortlist:
+      - "TODO"
+    longlist:
       - "IDEs: Visual Studio 2008/2010, Eclipse, Atmel Studio"
       - "Editors: Vim (my favorite editor), Submlime Text, etc."
       - "VCS: Git, SVN"
       - "Build Tools: MSBuild, rake, make, etc."
       - "Bashes: zsh, bash"
       - "Compilers: gcc"
-  -
+  operatingsystems:
     name: "Operating Systems"
-    items:
-      - "Linux: Deep understanding and experience with Linux and various distributions (10 years experience)"
+    description: "Very good experience with all three major operating systems (Linux, Mac OS X and Windows)"
+    shortlist:
+      - "Linux"
       - "Mac OS X"
       - "Windows"
-  -
+    longlist:
+      - "Linux: Deep understanding and experience with kernel internals and various distributions (10 years experience)"
+      - "Mac OS X: Good experience"
+      - "Windows: Very good experience"
+  pm:
     name: "Project Management"
-    items:
-      - "MS Project, GTD"
+    description: "MS Project, GTD"
+    shortlist:
+      - "MS Project"
+      - "GTD"
 
 education:
   -
@@ -157,10 +199,10 @@ education:
       title: "University of Applied Sciences Augsburg"
       location: "Augsburg, Germany"
     what:
-      title: "Computer Science"
+      title: "Dipl.-Inf. (FH) (GPA: 1.7)"
     when: "October 2001 - December 2005"
     description:
-      - "TODO"
+      - "Thesis: Automatische Erkennung und Verhinderung von Hintertüren in Netzwerken"
 
 languages:
   - "German: Native speaker"
@@ -170,7 +212,7 @@ professional_interests:
   - "Microcontroller, PLC programming, Graphics programming, Data Analysis, Networks and Protocols"
 
 interests:
-  - "Sports, Movies, Travelling and enjoy a good time with my friends."
+  - "Sports, Movies, Travelling and to have a good time with my family and friends."
 
 press:
   - "TO COME..."

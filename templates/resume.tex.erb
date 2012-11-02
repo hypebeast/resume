@@ -5,7 +5,6 @@
 % URL: http://linux.dsplabs.com.au/resume-writing-example-latex-template-linux-curriculum-vitae-professional-cv-layout-format-text-p54/
 
 \documentclass[margin]{resume}
-
 \usepackage{graphicx}
 
 \begin{document}
@@ -44,7 +43,21 @@
     %---------------------------------------------------------------------------------------------
     \section{\mysidestyle \textbf{\large{WORK EXPERIENCE}}}
 
-    TODO
+    <% data['work'].each do |company| %>
+      \textbf{\large{<%= company['where']['title'] %>}} \hfill <%= company['where']['location'] %> \\
+      \textsl{<%= company['what']['title'] %>} \hfill  <%= company['when'] %> \\
+      <%= company['description'] %>
+
+      \textbf{Projects}
+
+      <% company['projects'].each do |project| %>
+        \textsl{<%= project['title'] %>} \\
+        <%= project['description'] %> \\
+
+      <% end %>
+
+    <% end %>
+
 
 \sectionline
 
@@ -53,7 +66,11 @@
     %---------------------------------------------------------------------------------------------
     \section{\mysidestyle \textbf{\large{PROJECTS}}}
 
-    TODO
+    <% data['projects'].each do |project| %>
+      \textbf{\large{<%= project['name'] %>}} \\
+      <%= project['description'] %> \\
+    <% end %>
+
 
 \sectionline
 
@@ -71,7 +88,11 @@
     %---------------------------------------------------------------------------------------------
     \section{\mysidestyle \textbf{\large{EDUCATION}}}
 
-    TODO
+    <% data['education'].each do |school| %>
+    \textbf{\large{<%= school['where']['title'] %>}} \hfill <%= school['where']['location'] %> \\
+    \textsl{<%= school['what']['title'] %>} \hfill <%= school['when'] %> \\
+    <%= school['description'] %>
+    <% end %>
 
 \sectionline
 

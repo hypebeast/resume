@@ -74,15 +74,35 @@
             </div>
           </div>
 
-          <div class="row" style="margin: 10px 0">
+          <div class="row" style="margin: 10px 0 0 0">
             <div class="span12">
-              <ul>
-                <% company['description'].each do |line| %>
-                  <li> <%= line %> </li>
-                <% end %>
-              </ul>
+              <%= company['description'] %>
             </div>
           </div>
+
+          <div class="row">
+            <div class="span12">
+              <h4>Projects</h4>
+            </div>
+          </div>
+
+          <% company['projects'].each do |project| %>
+            <div class="row">
+              <div class="span12">
+                <h5><%= project['title'] %>
+                <a href=" <%= project['link'] %> " target="_BLANK">
+                  <span class="badge">Website</span></a>
+                </h5>
+              </div>
+            </div>
+
+            <div class="row" style="margin: 0 0 4px 0">
+              <div class="span12">
+                <%= project['description'] %>
+              </div>
+            </div>
+          <% end %>
+
         <% end %>
       </section>
 

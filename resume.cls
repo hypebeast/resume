@@ -1,10 +1,16 @@
 %
-% Resume Document Style 
+% Resume Document Style
+%
+% This file is part of my resume project
+% Modified by Sebastian Ruml on Oct 2012
+%
+%
 % Modified By Chris Gibson on Feb 2011
 % Originally Released 23 Nov 1989
 %
 % Original document by Michael DeCorte
 %
+
 \usepackage{color}
 %\definecolor{ColorOne}{rgb}{0.7,0.05,0.05}
 \definecolor{ColorOne}{rgb}{0.6, 0.73, 0.35}
@@ -824,8 +830,8 @@
 \itemsep=0cm
 \parsep=0cm
 \topmargin -20mm
-%\textheight 265mm
-\textheight 300mm
+\textheight 265mm
+%\textheight 300mm
 
 \newenvironment{list1}{
   \begin{list}{\ding{113}}{%
