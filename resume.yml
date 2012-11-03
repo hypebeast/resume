@@ -33,7 +33,6 @@ summary:
       >
         At the moment I discover the wonderful world of web development with the latest technologies
         (HTML5, Javascript, Sinatra, Flask, Websockets, WebGL).
-
   long:
     -
       >
@@ -69,32 +68,45 @@ work:
       -
         title: "Senior Software Developer"
         when: "January 2006 - December 2008"
+        description:
+          >
+            Realized projects for the digital signage markt. Responsible for the design and development
+            of the software components. Many projects where realized in close consultation with the customers.
       -
         title: "Lead Software Department"
         when: "January 2009 - present"
-    description:
-      >
-        Since 2009 I'm the leader of the software department and responsible for the development
-        of all software components and the management of the software development team.
+        description:
+          >
+            Since 2009 I'm the leader of the software department and responsible for the development
+            of all software components and the management of the software development team. Moreover,
+            for many projects it was required to communicate with the customer to find an optimal solution
+            for every project.
+    description: ""
     projects:
       -
         title: "Meta Twist Tower"
         description:
-          >
-            TODO
+          - "Lead of software development. Responsible for project management and coordination of the software development team. Moreover, worked closely together with the design, mechanical and electronic apartment to develop the best solution for the implementation."
+          - "Architected and developed the PLC system to control the kinetics. This system is implemented in IEC61131-3."
+          - "Engineered the process automation software in CSharp. Used an MVC architecture to provide an abstraction between the control functions and the kinetics. This system is responsible for the overall system control, monitoring and observation."
+          - "Application architecture includes..."
+          - "Responsible for the design of the different APIs (OSC, ADS, file based playlist exchange) to allow the communication between the subsystem."
+          - "The Meta Twist Tower system was integrated into the existing digital signage system. This required a lot of communication with the customer."
+          - "TODO: Threading, Async, Communication OSC, etc."
         link: "http://www.metatwisttower.com"
       -
         title: "XSlider"
         description:
-          >
-            TODO
+          - "Lead of software development and technical project management."
+          - "Responsible for the design and development of the PLC system, process automation and the integration of an broadcast content management system. The PLC program was built in IEC61131-3 and the process automation program in CSharp."
+          - "The final deployment of the system in Taiwan was managed by me. During deployment it was important to find quick and  solutions for emerging problems."
         link: "http://xslider.3mgtg.com/en/home.html"
       -
         title: "RotationScreen"
         description:
-          >
-            TODO
-        link: ""
+          - "Architected and developed the software for the world's first synchronized video and kinetics system."
+          - "Implemented a video playback system with CSharp and DirectShow. The kinetics movements are controlled by a PLC program. Developed the communication between the PLC and the video player with ADS (process communication protocol)."
+        link: "http://www.3mgtg.com"
 
 projects:
   -
@@ -111,7 +123,7 @@ projects:
     name: "PythonDrop"
     description:
       >
-        PythonDrop is a Dropbox clone written in Python. It's written in Python and has a web interface
+        PythonDrop is a Dropbox clone written in Python. It's backend in Python and has a web interface
         to control and for configuration.
     when: "2011 - present"
     link: "https://github.com/hypebeast/PythonDrop"
@@ -126,18 +138,28 @@ projects:
     link: "https://code.google.com/p/morphin/"
 
 skills:
-  proglanguages:
+  -
     name: "Languages"
-    description: "TODO"
+    description: "Programming Languages"
     shortlist:
-      - "TODO"
+      - "CSharp"
+      - "C"
+      - "C++"
+      - "Python"
+      - "Ruby"
+      - "Javascript"
+      - "HTML5, CSS3"
     longlist:
-      - "CSharp, C, C++"
-      - "Scala, Java"
-      - "Python, Ruby"
-      - "Javascript, related APIs, libraries like jQuery, knockout.js"
-      - "HTML, CSS"
-      - "IEC 61131-3"
+      - "CSharp (deep knowledge)"
+      - "C (experienced)"
+      - "C++ (medium)"
+      - "Java (medium)"
+      - "Python (experienced)"
+      - "Ruby (medium)"
+      - "Scala (learning)"
+      - "Javascript, related APIs, libraries like jQuery, knockout.js (learning to medium)"
+      - "HTML5, CSS3"
+      - "IEC 61131-3 (experienced)"
       - "Linux CL-Tools (e.g. sed, awk, bash, zsh)"
     languages:
       -
@@ -148,11 +170,15 @@ skills:
         name: "C"
         level: "intermediate"
         percentage: "70"
-  technologies:
+  -
     name: "Technologies/Frameworks"
-    description: "TODO"
+    description: "Technologies and Frameworks"
     shortlist:
-      - "TODO"
+      - ".Net Framework"
+      - "Qt"
+      - "DirectShow"
+      - "Beckhoff TwinCat and Ethercat"
+      - "Web Frameworks: jQuery, knockout.js, node.js, etc."
     longlist:
       - ".Net Framework (deep insight)"
       - "DirectX, OpenGL (both learning)"
@@ -160,24 +186,33 @@ skills:
       - "Ruby on Rails, Django (both learning), Flask, Sinatra"
       - "QT, Gtk+"
       - "Linux Kernel Programming"
-      - "Beckhoff TwinCat System and Ethercat (experienced and build a lot of projects with these technologies)"
+      - "Beckhoff TwinCat System and Ethercat (experienced and build a lot of projects)"
       - "Broadcast Technologies (SDI, Framelock, Genlock)"
       - "Web technologies: jQuery, knockout.js, etc."
-  tools:
+    frameworks:
+      -
+        name: ".Net Framework"
+        level: "expert"
+        percentage: "80"
+  -
     name: "Tools"
-    description: "TODO"
+    description: "Programming Tools"
     shortlist:
-      - "TODO"
+      - "Various IDEs: Visual Studio, Eclipse, etc."
+      - "Vim"
+      - "ZSH"
+      - "Make, Rake, etc."
+      - "git, svn"
     longlist:
       - "IDEs: Visual Studio 2008/2010, Eclipse, Atmel Studio"
-      - "Editors: Vim (my favorite editor), Submlime Text, etc."
+      - "Editors: Vim (my favorite editor), Sublime Text, etc."
       - "VCS: Git, SVN"
       - "Build Tools: MSBuild, rake, make, etc."
       - "Bashes: zsh, bash"
       - "Compilers: gcc"
-  operatingsystems:
+  -
     name: "Operating Systems"
-    description: "Very good experience with all three major operating systems (Linux, Mac OS X and Windows)"
+    description: "Very good experience with all three major operating systems: Linux, Mac OS X and Windows."
     shortlist:
       - "Linux"
       - "Mac OS X"
@@ -186,17 +221,18 @@ skills:
       - "Linux: Deep understanding and experience with kernel internals and various distributions (10 years experience)"
       - "Mac OS X: Good experience"
       - "Windows: Very good experience"
-  pm:
+  -
     name: "Project Management"
     description: "MS Project, GTD"
     shortlist:
-      - "MS Project"
-      - "GTD"
+      - "MS Project, GTD"
+    longlist:
+      - "MS Project, GTD"
 
 education:
   -
     where:
-      title: "University of Applied Sciences Augsburg"
+      name: "University of Applied Sciences Augsburg"
       location: "Augsburg, Germany"
     what:
       title: "Dipl.-Inf. (FH) (GPA: 1.7)"
@@ -209,7 +245,7 @@ languages:
   - "English: Fluent"
 
 professional_interests:
-  - "Microcontroller, PLC programming, Graphics programming, Data Analysis, Networks and Protocols"
+  - "Microcontroller, Physical computing, PLC programming, Graphics programming, Data Analysis, Networks and Protocols"
 
 interests:
   - "Sports, Movies, Travelling and to have a good time with my family and friends."

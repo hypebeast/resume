@@ -52,9 +52,9 @@ task :gh_pages => [:html, :pdf] do
   CMD
 end
 
+desc "Starts an HTTP server"
 task :server => [:html] do
   `python -m SimpleHTTPServer`
 end
-
 
 task :default => [:clean, :html, :tex]
