@@ -31,7 +31,7 @@ task :tex => data['tex']['output']
 
 desc "Generate the PDF file from the Latex file"
 task :pdf => [:tex] do
-  `latexmk -pdf #{data['tex']['output']}`
+  `latexmk -f -pdf #{data['tex']['output']}`
 end
 
 desc "Cleans everything up"

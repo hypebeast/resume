@@ -1,11 +1,13 @@
 % Sebastian Ruml's Resume
 % URL: https://github.com/hypebeast/resume
+% Copyright Sebastian Ruml, sebastian.ruml@gmail.com
 %
 % Based on resume tex file by Kamil Wojcicki
 % URL: http://linux.dsplabs.com.au/resume-writing-example-latex-template-linux-curriculum-vitae-professional-cv-layout-format-text-p54/
 
 \documentclass[margin]{resume}
 \usepackage{graphicx}
+\usepackage{multicol}
 
 \begin{document}
 
@@ -13,7 +15,7 @@
 
 \begin{resume}
 
-\vspace{15mm}
+\vspace{10mm}
 
     %---------------------------------------------------------------------------------------------
     % Contact
@@ -32,7 +34,7 @@
     %---------------------------------------------------------------------------------------------
     \section{\mysidestyle \textbf{\large{SUMMARY}}}
 
-    <% data['summary'].each do |line| %>
+    <% data['summary']['short'].each do |line| %>
       <%= line %> \\\\
     <% end %>
 
@@ -44,15 +46,23 @@
     \section{\mysidestyle \textbf{\large{WORK EXPERIENCE}}}
 
     <% data['work'].each do |company| %>
-      \textbf{\large{<%= company['where']['title'] %>}} \hfill <%= company['where']['location'] %> \\
-      \textsl{<%= company['what']['title'] %>} \hfill  <%= company['when'] %> \\
-      <%= company['description'] %>
+      \textbf{\large{<%= company['where']['title'] %>}} \hfill <%= company['where']['location'] %> \\\\
+      <% company['positions'].each do |position| %>
+        \textsl{<%= position['title'] %>} \hfill  <%= position['when'] %> \\\\
+        <%= position['description'] %>
+
+      <% end %>
 
       \textbf{Projects}
 
       <% company['projects'].each do |project| %>
-        \textsl{<%= project['title'] %>} \\
-        <%= project['description'] %> \\
+        \textsl{<%= project['title'] %>}
+
+        \begin{list2}        
+        <% project['description'].each do |line| %>
+        \item <%= line %> 
+        <% end %>
+        \end{list2}        
 
       <% end %>
 
@@ -68,7 +78,8 @@
 
     <% data['projects'].each do |project| %>
       \textbf{\large{<%= project['name'] %>}} \\
-      <%= project['description'] %> \\
+      <%= project['description'] %>
+
     <% end %>
 
 
@@ -79,7 +90,19 @@
     %---------------------------------------------------------------------------------------------
     \section{\mysidestyle \textbf{\large{SKILLS}}}
 
-    TODO
+    \textsl{ Programming Languages }
+    
+    \begin{multicols}{3}
+        \begin{list2}
+            <% data['skills'][0]['shortlist'].each do |item| %>
+                \item <%= item %>
+            <% end %>
+        \end{list2}
+    \end{multicols}
+
+    \textsl{ Technologies/Frameworks }
+    
+    \textsl{ Tools }
 
 \sectionline
 
@@ -89,7 +112,7 @@
     \section{\mysidestyle \textbf{\large{EDUCATION}}}
 
     <% data['education'].each do |school| %>
-    \textbf{\large{<%= school['where']['title'] %>}} \hfill <%= school['where']['location'] %> \\
+    \textbf{\large{<%= school['where']['name'] %>}} \hfill <%= school['where']['location'] %> \\
     \textsl{<%= school['what']['title'] %>} \hfill <%= school['when'] %> \\
     <%= school['description'] %>
     <% end %>
@@ -101,7 +124,11 @@
     %---------------------------------------------------------------------------------------------
     \section{\mysidestyle \textbf{\large{LANGUAGES}}}
 
-    TODO
+    \begin{list2}
+        <% data['languages'].each do |lang| %>        
+        \item <%= lang %>
+        <% end %>  
+    \end{list2}
 
 \sectionline
 
@@ -110,7 +137,9 @@
     %---------------------------------------------------------------------------------------------
     \section{\mysidestyle \textbf{\large{PROFESSIONAL INTERESTS}}}
 
-    TODO
+    \begin{list2}
+        \item <%= data['professional_interests'] %>
+    \end{list2}
 
 \sectionline
 
@@ -119,7 +148,12 @@
     %---------------------------------------------------------------------------------------------
     \section{\mysidestyle \textbf{\large{INTERESTS}}}
 
-    TODO
+    
+    \begin{list2}
+        \item <%= data['interests'] %>
+    \end{list2}
+
+
 
 
 \end{resume}

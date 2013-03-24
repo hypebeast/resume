@@ -9,10 +9,12 @@ html:
 
 contact:
   name: "Sebastian Ruml"
-  email: "sebastian.ruml@gmail.com"
+  email: "sebastian@sebastianruml.com"
   site: "http://www.sebastianruml.com"
   github: "https://github.com/hypebeast"
+  github_page: "http://hypebeast.github.com"
   xing: "TODO"
+  linkedin: "TODO"
 
 objective:
   - "Seeking a position as a software developer to improve my skills and work with a motivated team."
@@ -23,16 +25,17 @@ summary:
       >
         I am a human turned software engineer who toils by day and codes by night. I like
         doing things with CSharp, C++, Python, Ruby, Javascript, and pretty much any other technology
-        I can get my hands on. Sometimes I even make my hands dirty with C on microcontrollers,
-        to build funny things. I love to solve problems with the latest trends and technologies.
+        I can get my hands on. I even make my hands dirty with C on microcontrollers,
+        to build funny and interesting things. I love to solve problems with the latest trends and technologies.
     -
       >
-        During my spare time I love to work on my projects, to improve my ZSH, VI and Linux skills.
-        If I don't do some programming, I read Hackernews, Stackoverflow and read some code on Github.
+        During my spare time I love to work on my side projects and to improve my ZSH, VI and Linux skills.
+        If I don't do some programming, I read Hackernews, Stackoverflow and code on Github.
     -
       >
         At the moment I discover the wonderful world of web development with the latest technologies
-        (HTML5, Javascript, Sinatra, Flask, Websockets, WebGL).
+        (HTML5, Javascript, Sinatra, Flask, Websockets, WebGL). Furthermore, I deepen my knowledge with
+        micrcontrollers and C.
   long:
     -
       >
@@ -60,7 +63,7 @@ summary:
 work:
   -
     where:
-      title: "3M|GTG"
+      title: "3M GTG"
       location: "Munich, Germany"
       site: "http://www.3mgtg.com"
       when: "January 2006 - present"
@@ -79,27 +82,26 @@ work:
           >
             Since 2009 I'm the leader of the software department and responsible for the development
             of all software components and the management of the software development team. Moreover,
-            for many projects it was required to communicate with the customer to find an optimal solution
-            for every project.
+            for many projects it was necessary to communicate with the customer to find together an
+            optimal solution for every project.
     description: ""
     projects:
       -
         title: "Meta Twist Tower"
         description:
-          - "Lead of software development. Responsible for project management and coordination of the software development team. Moreover, worked closely together with the design, mechanical and electronic apartment to develop the best solution for the implementation."
+          - "Lead of software development. Responsible for project management and coordination of the software development team. Moreover, worked closely together with the design, mechanical and electronic department to elaborate the best solutions."
+          - "The whole software system is implemented as a layerd application to provide an abstraction and a clean interface between every system layer. Each layer was implemented as a seperated program."
           - "Architected and developed the PLC system to control the kinetics. This system is implemented in IEC61131-3."
-          - "Engineered the process automation software in CSharp. Used an MVC architecture to provide an abstraction between the control functions and the kinetics. This system is responsible for the overall system control, monitoring and observation."
-          - "Application architecture includes..."
+          - "Engineered the process automation software in CSharp. Used an MVC architecture to provide an abstraction between the system control functions and the kinetic functions. This system is responsible for the overall system control, monitoring and observation."
           - "Responsible for the design of the different APIs (OSC, ADS, file based playlist exchange) to allow the communication between the subsystem."
           - "The Meta Twist Tower system was integrated into the existing digital signage system. This required a lot of communication with the customer."
-          - "TODO: Threading, Async, Communication OSC, etc."
         link: "http://www.metatwisttower.com"
       -
         title: "XSlider"
         description:
           - "Lead of software development and technical project management."
           - "Responsible for the design and development of the PLC system, process automation and the integration of an broadcast content management system. The PLC program was built in IEC61131-3 and the process automation program in CSharp."
-          - "The final deployment of the system in Taiwan was managed by me. During deployment it was important to find quick and  solutions for emerging problems."
+          - "The final deployment of the system in Taiwan was managed by me. During deployment it was important to find quick and suitable solutions for emerging problems."
         link: "http://xslider.3mgtg.com/en/home.html"
       -
         title: "RotationScreen"
@@ -109,6 +111,15 @@ work:
         link: "http://www.3mgtg.com"
 
 projects:
+  -
+    name: "piJukebox"
+    description:
+      >
+        piJukebox is a music player web app made for Raspberry Pi. The goal is to create a
+        music player that supports internet radio, local media, Google Music and Spotify.
+        The project is realized with Bottle, HTML5, CSS3, knockout.js and Sammy.js.
+    when: "2012 - present"
+    link: "https://github.com/hypebeast/piJukebox"
   -
     name: "Orca"
     description:
@@ -142,13 +153,8 @@ skills:
     name: "Languages"
     description: "Programming Languages"
     shortlist:
-      - "CSharp"
-      - "C"
-      - "C++"
-      - "Python"
-      - "Ruby"
-      - "Javascript"
-      - "HTML5, CSS3"
+      - "CSharp, C, Python, IEC 61131-3"
+      - "C++, Ruby, Javascript, R, HTML5, CSS3"
     longlist:
       - "CSharp (deep knowledge)"
       - "C (experienced)"
@@ -174,21 +180,18 @@ skills:
     name: "Technologies/Frameworks"
     description: "Technologies and Frameworks"
     shortlist:
-      - ".Net Framework"
-      - "Qt"
-      - "DirectShow"
-      - "Beckhoff TwinCat and Ethercat"
+      - ".Net Framework, Qt, DirectShow, Beckhoff TwinCat/Ethercat"
       - "Web Frameworks: jQuery, knockout.js, node.js, etc."
     longlist:
       - ".Net Framework (deep insight)"
       - "DirectX, OpenGL (both learning)"
       - "DirectShow"
-      - "Ruby on Rails, Django (both learning), Flask, Sinatra"
+      - "Ruby on Rails, Django (both learning), Flask, Sinatra, Bottle"
       - "QT, Gtk+"
       - "Linux Kernel Programming"
       - "Beckhoff TwinCat System and Ethercat (experienced and build a lot of projects)"
       - "Broadcast Technologies (SDI, Framelock, Genlock)"
-      - "Web technologies: jQuery, knockout.js, etc."
+      - "Web technologies: jQuery, knockout.js, node.js, Flask, Sinatra, etc."
     frameworks:
       -
         name: ".Net Framework"
@@ -199,9 +202,7 @@ skills:
     description: "Programming Tools"
     shortlist:
       - "Various IDEs: Visual Studio, Eclipse, etc."
-      - "Vim"
-      - "ZSH"
-      - "Make, Rake, etc."
+      - "Vim, ZSH, Make, Rake, etc."
       - "git, svn"
     longlist:
       - "IDEs: Visual Studio 2008/2010, Eclipse, Atmel Studio"
@@ -214,20 +215,11 @@ skills:
     name: "Operating Systems"
     description: "Very good experience with all three major operating systems: Linux, Mac OS X and Windows."
     shortlist:
-      - "Linux"
-      - "Mac OS X"
-      - "Windows"
+      - "Linux, Mac OS X, Windows"
     longlist:
       - "Linux: Deep understanding and experience with kernel internals and various distributions (10 years experience)"
       - "Mac OS X: Good experience"
       - "Windows: Very good experience"
-  -
-    name: "Project Management"
-    description: "MS Project, GTD"
-    shortlist:
-      - "MS Project, GTD"
-    longlist:
-      - "MS Project, GTD"
 
 education:
   -
@@ -241,14 +233,14 @@ education:
       - "Thesis: Automatische Erkennung und Verhinderung von Hintertüren in Netzwerken"
 
 languages:
-  - "German: Native speaker"
-  - "English: Fluent"
+  - "German (native)"
+  - "English (fluent)"
 
 professional_interests:
-  - "Microcontroller, Physical computing, PLC programming, Graphics programming, Data Analysis, Networks and Protocols"
+  - "Microcontroller, UAV/MAV, Physical computing, PLC programming, Graphics programming, Data Analysis, Networks and Protocols"
 
 interests:
-  - "Sports, Movies, Travelling and to have a good time with my family and friends."
+  - "Sports (Snowboarding, Biking, Tennis), Movies, Music, Travelling and to have a good time with my family and friends."
 
 press:
   - "TO COME..."

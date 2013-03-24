@@ -454,7 +454,7 @@
 \let\@@section\relax
 \def\ds@overlapped{\ifx\@@section\relax\newsectionwidth{0.5in}\let\@@section\unboxed@sectiontitle\fi}
 %\def\ds@margin{\ifx\@@section\relax\newsectionwidth{1.3in}\let\@@section\boxed@sectiontitle\fi}
-\def\ds@margin{\ifx\@@section\relax\newsectionwidth{1.4in}\let\@@section\boxed@sectiontitle\fi}
+\def\ds@margin{\ifx\@@section\relax\newsectionwidth{1.45in}\let\@@section\boxed@sectiontitle\fi}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % DEFAULTS: (some of them)
@@ -855,7 +855,7 @@
 \newcommand{\listing}{\large}
 
 
-\newcommand{\sectionline}{\vspace*{-4mm}\par\hspace*{-36mm}\color{ColorOne}\hrulefill\\\color{black}\vspace*{-8mm}}
+\newcommand{\sectionline}{\vspace*{0mm}\par\hspace*{-36mm}\color{ColorOne}\hrulefill\\\color{black}\vspace*{-8mm}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
