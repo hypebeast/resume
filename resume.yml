@@ -89,12 +89,9 @@ work:
       -
         title: "Meta Twist Tower"
         description:
-          - "Lead of software development. Responsible for project management and coordination of the software development team. Moreover, worked closely together with the design, mechanical and electronic department to elaborate the best solutions."
-          - "The whole software system is implemented as a layerd application to provide an abstraction and a clean interface between every system layer. Each layer was implemented as a seperated program."
-          - "Architected and developed the PLC system to control the kinetics. This system is implemented in IEC61131-3."
+          - "Lead of the software development. Responsible for software architecture, project management, customer management and coordination of the software development team. Moreover, worked closely together with the design, mechanical and electronic department to elaborate the best solutions."
+          - "The whole software system is implemented as a layered application to provide an abstraction and a clean interface between every system layer. Each layer was implemented as a seperated program/process."
           - "Engineered the process automation software in CSharp. Used an MVC architecture to provide an abstraction between the system control functions and the kinetic functions. This system is responsible for the overall system control, monitoring and observation."
-          - "Responsible for the design of the different APIs (OSC, ADS, file based playlist exchange) to allow the communication between the subsystem."
-          - "The Meta Twist Tower system was integrated into the existing digital signage system. This required a lot of communication with the customer."
         link: "http://www.metatwisttower.com"
       -
         title: "XSlider"
@@ -134,8 +131,7 @@ projects:
     name: "PythonDrop"
     description:
       >
-        PythonDrop is a Dropbox clone written in Python. It's backend in Python and has a web interface
-        to control and for configuration.
+        PythonDrop is a Dropbox clone written in Python. The web interface is written in HTML5.
     when: "2011 - present"
     link: "https://github.com/hypebeast/PythonDrop"
   -
@@ -181,8 +177,8 @@ skills:
     name: "Technologies/Frameworks"
     description: "Technologies and Frameworks"
     shortlist:
-      - ".Net Framework, Qt, DirectShow, OpenGL, Beckhoff TwinCat/Ethercat, etc."
-      - "Web Frameworks: jQuery, knockout.js, node.js, backbone.js, etc."
+      - ".Net Framework (WinForms, WPF), Qt, DirectShow, OpenGL, Beckhoff TwinCat/Ethercat, etc."
+      - "jQuery, knockout.js, node.js, backbone.js, etc."
     longlist:
       - ".Net Framework (deep insight)"
       - "DirectX, OpenGL (both learning)"

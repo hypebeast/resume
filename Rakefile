@@ -44,7 +44,7 @@ task :gh_pages => [:html] do
   #mv #{data[:tex][:pdf]} cv-`date +%Y-%m`.pdf
   Kernel.exec(<<-CMD)
     set -e
-    git checkout origin/gh-pages
+    git checkout gh-pages
     mv resume.html index.html
     git add index.html
     git commit -m 'index page update'
