@@ -153,8 +153,9 @@ skills:
     name: "Languages"
     description: "Programming Languages"
     shortlist:
-      - "CSharp, C, Python, IEC 61131-3"
-      - "C++, Ruby, Javascript, R, HTML5, CSS3"
+      - "Experiencd: CSharp, C, Python, IEC 61131-3"
+      - "Medium: C++, Ruby, Java, Javascript, HTML5, CSS3"
+      - "Learning: Scala, R"
     longlist:
       - "CSharp (deep knowledge)"
       - "C (experienced)"
@@ -180,8 +181,8 @@ skills:
     name: "Technologies/Frameworks"
     description: "Technologies and Frameworks"
     shortlist:
-      - ".Net Framework, Qt, DirectShow, Beckhoff TwinCat/Ethercat"
-      - "Web Frameworks: jQuery, knockout.js, node.js, etc."
+      - ".Net Framework, Qt, DirectShow, OpenGL, Beckhoff TwinCat/Ethercat, etc."
+      - "Web Frameworks: jQuery, knockout.js, node.js, backbone.js, etc."
     longlist:
       - ".Net Framework (deep insight)"
       - "DirectX, OpenGL (both learning)"
@@ -201,9 +202,9 @@ skills:
     name: "Tools"
     description: "Programming Tools"
     shortlist:
-      - "Various IDEs: Visual Studio, Eclipse, etc."
-      - "Vim, ZSH, Make, Rake, etc."
-      - "git, svn"
+      - "IDEs: Visual Studio, Eclipse, Atmel Studio"
+      - "Vim, ZSH, Make, Rake, gcc, etc."
+      - "VCSs: git, svn"
     longlist:
       - "IDEs: Visual Studio 2008/2010, Eclipse, Atmel Studio"
       - "Editors: Vim (my favorite editor), Sublime Text, etc."

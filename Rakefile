@@ -40,13 +40,13 @@ task :clean do
 end
 
 desc "Publishes the HTML and PDF output to the Github pages"
-task :gh_pages => [:html, :pdf] do
+task :gh_pages => [:html] do
   #mv #{data[:tex][:pdf]} cv-`date +%Y-%m`.pdf
   Kernel.exec(<<-CMD)
     set -e
-    git checkout gh-pages
+    git checkout origin/gh-pages
     mv #{data[:html][:output]} index.html
-    git add .
+    git add index.html
     git commit -m 'index page update'
     git checkout master
   CMD
@@ -57,4 +57,4 @@ task :server => [:html] do
   `python -m SimpleHTTPServer`
 end
 
-task :default => [:clean, :html, :tex]
+task :default => [:clean, :html, :pdf]

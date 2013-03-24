@@ -34,6 +34,7 @@
     %---------------------------------------------------------------------------------------------
     \section{\mysidestyle \textbf{\large{SUMMARY}}}
 
+    <% i = 0 %>
     <% data['summary']['short'].each do |line| %>
       <%= line %> \\\\
     <% end %>
@@ -92,7 +93,7 @@
 
     \textsl{ Programming Languages }
     
-    \begin{multicols}{3}
+    \begin{multicols}{2}
         \begin{list2}
             <% data['skills'][0]['shortlist'].each do |item| %>
                 \item <%= item %>
@@ -101,8 +102,31 @@
     \end{multicols}
 
     \textsl{ Technologies/Frameworks }
-    
+    \begin{multicols}{2}
+        \begin{list2}
+            <% data['skills'][1]['shortlist'].each do |item| %>
+                \item <%= item %>
+            <% end %>
+        \end{list2}
+    \end{multicols}
+
     \textsl{ Tools }
+    \begin{multicols}{2}
+        \begin{list2}
+            <% data['skills'][2]['shortlist'].each do |item| %>
+                \item <%= item %>
+            <% end %>
+        \end{list2}
+    \end{multicols}
+
+    \textsl{ Operating Systems }
+    \begin{multicols}{2}
+        \begin{list2}
+            <% data['skills'][3]['shortlist'].each do |item| %>
+                \item <%= item %>
+            <% end %>
+        \end{list2}
+    \end{multicols}
 
 \sectionline
 
