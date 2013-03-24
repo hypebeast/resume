@@ -48,6 +48,7 @@ task :gh_pages => [:html] do
     mv resume.html index.html
     git add index.html
     git commit -m 'index page update'
+    git push origin gh-pages
     git checkout master
   CMD
 end
