@@ -45,7 +45,7 @@ task :gh_pages => [:html] do
   Kernel.exec(<<-CMD)
     set -e
     git checkout origin/gh-pages
-    mv #{data[:html][:output]} index.html
+    mv resume.html index.html
     git add index.html
     git commit -m 'index page update'
     git checkout master
