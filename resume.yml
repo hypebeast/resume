@@ -9,12 +9,12 @@ html:
 
 contact:
   name: "Sebastian Ruml"
-  email: "sebastian@sebastianruml.com"
+  email: "sebastian.ruml@gmail.com"
   site: "http://www.sebastianruml.com"
   github: "https://github.com/hypebeast"
   github_page: "http://hypebeast.github.com"
-  xing: "TODO"
-  linkedin: "TODO"
+  xing: "https://www.xing.com/profile/Sebastian_Ruml"
+  linkedin: "http://www.linkedin.com/in/sebastianruml"
 
 objective:
   - "Seeking a position as a software developer to improve my skills and work with a motivated team."
@@ -105,7 +105,7 @@ work:
         description:
           - "Architected and developed the software for the world's first synchronized video and kinetics system."
           - "Implemented a video playback system with CSharp and DirectShow. The kinetics movements are controlled by a PLC program. Developed the communication between the PLC and the video player with ADS (process communication protocol)."
-        link: "http://www.3mgtg.com"
+        link: "http://www.3mgtg.com/en/products-hardware.html"
 
 projects:
   -
@@ -177,11 +177,11 @@ skills:
     name: "Technologies/Frameworks"
     description: "Technologies and Frameworks"
     shortlist:
-      - ".Net Framework (WinForms, WPF), Qt, DirectShow, OpenGL, Beckhoff TwinCat/Ethercat, etc."
+      - ".Net Framework (WinForms, WPF), Qt, DirectShow, OpenGL, Beckhoff TwinCat/Ethercat, Cinder, etc."
       - "jQuery, knockout.js, node.js, backbone.js, etc."
     longlist:
       - ".Net Framework (deep insight)"
-      - "DirectX, OpenGL (both learning)"
+      - "DirectX, OpenGL (both learning), Cinder"
       - "DirectShow"
       - "Ruby on Rails, Django (both learning), Flask, Sinatra, Bottle"
       - "QT, Gtk+"
@@ -189,6 +189,7 @@ skills:
       - "Beckhoff TwinCat System and Ethercat (experienced and build a lot of projects)"
       - "Broadcast Technologies (SDI, Framelock, Genlock)"
       - "Web technologies: jQuery, knockout.js, node.js, Flask, Sinatra, etc."
+      - "gevent"
     frameworks:
       -
         name: ".Net Framework"
@@ -234,7 +235,7 @@ languages:
   - "English (fluent)"
 
 professional_interests:
-  - "Microcontroller, UAV/MAV, Physical computing, PLC programming, Graphics programming, Data Analysis, Networks and Protocols"
+  - "Microcontroller, UAV/MAV, Physical computing, PLC programming, Graphics programming, Data Analysis, Networks and Protocols, Realtime OS"
 
 interests:
   - "Sports (Snowboarding, Biking, Tennis), Movies, Music, Travelling and to have a good time with my family and friends."

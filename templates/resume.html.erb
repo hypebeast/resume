@@ -20,7 +20,7 @@
             <span class="" style="text-align: center;">
               <address>
                 <a href="<%= data['contact']['site'] %>" > <%= data['contact']['site'] %> </a><br />
-                <a href="mailto:#"><%= data['contact']['email'] %></a><br />
+                <a href="mailto:<%= data['contact']['email'] %>"><%= data['contact']['email'] %></a><br />
                 <a> <%= data['contact']['phone'] %> </a>
                 <strong>Github: </strong><a href="<%= data['contact']['github'] %>" > <%= data['contact']['github'] %> </a><br />
                 <strong>Github Page: </strong><a href="<%= data['contact']['github_page'] %>"><%= data['contact']['github_page'] %></a><br />
@@ -265,7 +265,14 @@
               <% end %>
             </ul>
           </div>
+        </div>
       </section>
+      <div>
+        <hr>
+      </div>
+      <div class="row footertext">
+        Build with <a href="https://github.com/hypebeast/resume">Resume</a>
+      </div>
     </div>
   </body>
 </html>
