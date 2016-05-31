@@ -6,3 +6,7 @@ h2 {
   color: #9BBB59;
   padding-bottom: 25px;
 }
+
+a:hover {
+  text-decoration: none;
+}

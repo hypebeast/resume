@@ -59,15 +59,52 @@ summary:
         to develop software for connecting the real world (e.g. mechanical systems) to the software world.
         Moreover, I have extensive experience in leadership in technology including design and development
         of applications, team management, developer mentoring, problem solving and crisis mangement.
+    -
+      >
+        At 2014 I joined Netlight...
 
 work:
+  -
+    where:
+      title: "Netlight Consulting"
+      location: "Munich, Germany"
+      site: "https://www.netlight.com/"
+      when: "January 2014 - present"
+    positions:
+      -
+        title: "Associate Manager"
+        when: "Mai 2016 - present"
+        description:
+          >
+            Software architect at a big media company developing mainly backend service.
+      -
+        title: "Senior Consultant"
+        when: "January 2014 - April 2016"
+        description:
+          >
+            Software architect at a big media company developing mainly backend service.
+    projects:
+      -
+        title: "Backend Service "
+        description:
+          - ""
+        link: ""
   -
     where:
       title: "3M GTG"
       location: "Munich, Germany"
       site: "http://www.3mgtg.com"
-      when: "January 2006 - present"
+      when: "January 2006 - December 2013"
     positions:
+      -
+        title: "Lead Software Department"
+        when: "January 2009 - December 2013"
+        description:
+          >
+            Since 2009 I'm the leader of the software department and responsible for the development
+            of all software components and the management of the software development team. Moreover,
+            for many projects it was necessary to communicate with the customer to find together an
+            optimal solution for every project.
       -
         title: "Senior Software Developer"
         when: "January 2006 - December 2008"
@@ -75,16 +112,6 @@ work:
           >
             Realized projects for the digital signage markt. Responsible for the design and development
             of the software components. Many projects where realized in close consultation with the customers.
-      -
-        title: "Lead Software Department"
-        when: "January 2009 - present"
-        description:
-          >
-            Since 2009 I'm the leader of the software department and responsible for the development
-            of all software components and the management of the software development team. Moreover,
-            for many projects it was necessary to communicate with the customer to find together an
-            optimal solution for every project.
-    description: ""
     projects:
       -
         title: "Meta Twist Tower"
@@ -108,6 +135,20 @@ work:
         link: "http://www.3mgtg.com/en/products-hardware.html"
 
 projects:
+  -
+    name: "sqliteweb"
+    description:
+      >
+        sqliteweb is a web based SQLite database browser. It''s written in Go.
+    when: "2014 - present"
+    link: "https://github.com/hypebeast/sqliteweb"
+  -
+    name: "go-osc"
+    description:
+      >
+        Open Sound Control (OSC) library for Golang. Implemented in pure Go.
+    when: "2013 - present"
+    link: "https://github.com/hypebeast/go-osc"
   -
     name: "piJukebox"
     description:
@@ -149,22 +190,28 @@ skills:
     name: "Languages"
     description: "Programming Languages"
     shortlist:
-      - "Experiencd: CSharp, C, Python, IEC 61131-3"
-      - "Medium: C++, Ruby, Java, Javascript, HTML5, CSS3"
-      - "Learning: Scala, R"
+      - "Experienced: NodeJS/Javascript, Go, CSharp, C, Python, Ruby, IEC 61131-3"
+      - "Medium: Scala, C++, Java, PHP"
+      - "Learning: Rust, Elexir, R"
     longlist:
+      - "Javascript/NodeJS (deep knowledge)"
       - "CSharp (deep knowledge)"
       - "C (experienced)"
+      - "Python (experienced)"
+      - "Go (medium)"
+      - "Scala (medium)"
       - "C++ (medium)"
       - "Java (medium)"
-      - "Python (experienced)"
       - "Ruby (medium)"
-      - "Scala (learning)"
-      - "Javascript, related APIs, libraries like jQuery, knockout.js (learning to medium)"
+      - "PHP (medium)"
       - "HTML5, CSS3"
       - "IEC 61131-3 (experienced)"
       - "Linux CL-Tools (e.g. sed, awk, bash, zsh)"
     languages:
+      -
+        name: "Javascript"
+        level: "expert"
+        percentage: "80"
       -
         name: "CSharp"
         level: "expert"
@@ -173,23 +220,26 @@ skills:
         name: "C"
         level: "intermediate"
         percentage: "70"
+      -
+        name: "Python"
+        level: "intermediate"
+        percentage: "70"
   -
     name: "Technologies/Frameworks"
     description: "Technologies and Frameworks"
     shortlist:
-      - ".Net Framework (WinForms, WPF), Qt, DirectShow, OpenGL, Beckhoff TwinCat/Ethercat, Cinder, etc."
-      - "jQuery, knockout.js, node.js, backbone.js, etc."
+      - "NodeJS, ExpressJS, Play, .Net Framework (WinForms, WPF), Qt, DirectShow, OpenGL, Beckhoff TwinCat/Ethercat, Cinder, etc."
+      - "AngularJS, ReactJS, jQuery, Knockout.js, Backbone.js, etc."
     longlist:
       - ".Net Framework (deep insight)"
-      - "DirectX, OpenGL (both learning), Cinder"
-      - "DirectShow"
-      - "Ruby on Rails, Django (both learning), Flask, Sinatra, Bottle"
+      - "Django, Flask, Sinatra, Bottle, Ruby on Rails"
       - "QT, Gtk+"
       - "Linux Kernel Programming"
       - "Beckhoff TwinCat System and Ethercat (experienced and build a lot of projects)"
       - "Broadcast Technologies (SDI, Framelock, Genlock)"
       - "Web technologies: jQuery, knockout.js, node.js, Flask, Sinatra, etc."
-      - "gevent"
+      - "DirectX, OpenGL (both learning), Cinder"
+      - "DirectShow"
     frameworks:
       -
         name: ".Net Framework"
@@ -242,4 +292,3 @@ interests:
 
 press:
   - "TO COME..."
-

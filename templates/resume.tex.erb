@@ -59,11 +59,11 @@
       <% company['projects'].each do |project| %>
         \textsl{<%= project['title'] %>}
 
-        \begin{list2}        
+        \begin{list2}
         <% project['description'].each do |line| %>
-        \item <%= line %> 
+        \item <%= line %>
         <% end %>
-        \end{list2}        
+        \end{list2}
 
       <% end %>
 
@@ -75,7 +75,7 @@
     %---------------------------------------------------------------------------------------------
     % Projects
     %---------------------------------------------------------------------------------------------
-    \section{\mysidestyle \textbf{\large{PROJECTS}}}
+    \section{\mysidestyle \textbf{\large{PRIVATE PROJECTS}}}
 
     <% data['projects'].each do |project| %>
       \textbf{\large{<%= project['name'] %>}} \\
@@ -92,7 +92,7 @@
     \section{\mysidestyle \textbf{\large{SKILLS}}}
 
     \textsl{ Programming Languages }
-    
+
         \begin{list2}
             <% data['skills'][0]['shortlist'].each do |item| %>
                 \item <%= item %>
@@ -141,9 +141,9 @@
     \section{\mysidestyle \textbf{\large{LANGUAGES}}}
 
     \begin{list2}
-        <% data['languages'].each do |lang| %>        
+        <% data['languages'].each do |lang| %>
         \item <%= lang %>
-        <% end %>  
+        <% end %>
     \end{list2}
 
 \sectionline
@@ -154,7 +154,9 @@
     \section{\mysidestyle \textbf{\large{PROFESSIONAL INTERESTS}}}
 
     \begin{list2}
-        \item <%= data['professional_interests'] %>
+        <% data['professional_interests'].each do |item| %>
+        \item <%= item %>
+        <% end %>
     \end{list2}
 
 \sectionline
@@ -164,12 +166,12 @@
     %---------------------------------------------------------------------------------------------
     \section{\mysidestyle \textbf{\large{INTERESTS}}}
 
-    
+
     \begin{list2}
-        \item <%= data['interests'] %>
+      <% data['interests'].each do |item| %>
+      \item <%= item %>
+      <% end %>
     \end{list2}
-
-
 
 
 \end{resume}
