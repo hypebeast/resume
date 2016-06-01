@@ -24,18 +24,17 @@ summary:
     -
       >
         I am a human turned software engineer who toils by day and codes by night. I like
-        doing things with CSharp, C++, Python, Ruby, Javascript, and pretty much any other technology
+        doing things with NodeJS, Go, Python, Ruby, CSharp, and pretty much any other technology
         I can get my hands on. I even make my hands dirty with C on microcontrollers,
         to build funny and interesting things. I love to solve problems with the latest trends and technologies.
+        Furthermore, I enjoy to build and develop great projects and applications with motivated and dedicative people.
     -
       >
         During my spare time I love to work on my side projects and to improve my ZSH, VI and Linux skills.
         If I don't do some programming, I read Hackernews, Stackoverflow and code on Github.
     -
       >
-        At the moment I discover the wonderful world of web development with the latest technologies
-        (HTML5, Javascript, Sinatra, Flask, Websockets, WebGL). Furthermore, I deepen my knowledge with
-        micrcontrollers and C.
+        At the moment I am proud to realize and develop great projects with the wonderful people at Netlight.
   long:
     -
       >
@@ -48,8 +47,8 @@ summary:
         communication channels at Astaro AG.
     -
       >
-        In the year 2004, my friend and I realized together my first Open Source program: XMMS Weasel.
-        Since that time I'm passionate about the Open Source community and I enjoy to contribute during
+        In the year 2004, I realized my first Open Source program: XMMS Weasel.
+        Since that time I am passionate about the Open Source community and I enjoy to contribute during
         my spare time.
     -
       >
@@ -61,7 +60,9 @@ summary:
         of applications, team management, developer mentoring, problem solving and crisis mangement.
     -
       >
-        At 2014 I joined Netlight...
+        Since 2014 I work at Netlight where I'm able to have a great time with wonderful and smart colleagues.
+        During my work at Netlight I'm gained much experience architecturing and developing big scale web services that
+        are used by many people all over the world.
 
 work:
   -
@@ -74,21 +75,11 @@ work:
       -
         title: "Associate Manager"
         when: "Mai 2016 - present"
-        description:
-          >
-            Software architect at a big media company developing mainly backend service.
+        description: ""
       -
         title: "Senior Consultant"
         when: "January 2014 - April 2016"
-        description:
-          >
-            Software architect at a big media company developing mainly backend service.
-    projects:
-      -
-        title: "Backend Service "
-        description:
-          - ""
-        link: ""
+        description: ""
   -
     where:
       title: "3M GTG"
@@ -192,7 +183,7 @@ skills:
     shortlist:
       - "Experienced: NodeJS/Javascript, Go, CSharp, C, Python, Ruby, IEC 61131-3"
       - "Medium: Scala, C++, Java, PHP"
-      - "Learning: Rust, Elexir, R"
+      - "Learning: Rust, Elixir, R"
     longlist:
       - "Javascript/NodeJS (deep knowledge)"
       - "CSharp (deep knowledge)"
@@ -228,16 +219,16 @@ skills:
     name: "Technologies/Frameworks"
     description: "Technologies and Frameworks"
     shortlist:
-      - "NodeJS, ExpressJS, Play, .Net Framework (WinForms, WPF), Qt, DirectShow, OpenGL, Beckhoff TwinCat/Ethercat, Cinder, etc."
-      - "AngularJS, ReactJS, jQuery, Knockout.js, Backbone.js, etc."
+      - "NodeJS, ExpressJS, Play, .Net Framework (WinForms, WPF), Qt, Beckhoff TwinCat/Ethercat, etc."
+      - "AngularJS, ReactJS, VueJS, jQuery, Knockout.js, Backbone.js, etc."
     longlist:
-      - ".Net Framework (deep insight)"
-      - "Django, Flask, Sinatra, Bottle, Ruby on Rails"
+      - "ExpressJS, Play, Django, Flask, Sinatra, Bottle, Ruby on Rails"
+      - "AngularJS, ReactJS, VueJS, jQuery, Knockout.js, Backbone.js, etc."
+      - ".Net Framework"
       - "QT, Gtk+"
       - "Linux Kernel Programming"
       - "Beckhoff TwinCat System and Ethercat (experienced and build a lot of projects)"
       - "Broadcast Technologies (SDI, Framelock, Genlock)"
-      - "Web technologies: jQuery, knockout.js, node.js, Flask, Sinatra, etc."
       - "DirectX, OpenGL (both learning), Cinder"
       - "DirectShow"
     frameworks:
@@ -253,10 +244,10 @@ skills:
       - "Vim, ZSH, Make, Rake, gcc, etc."
       - "VCSs: git, svn"
     longlist:
-      - "IDEs: Visual Studio 2008/2010, Eclipse, Atmel Studio"
+      - "IDEs: IntelliJ IDEA, Visual Studio 2008/2010, Eclipse, etc."
       - "Editors: Vim (my favorite editor), Sublime Text, etc."
-      - "VCS: Git, SVN"
-      - "Build Tools: MSBuild, rake, make, etc."
+      - "VCS: Git, SVN, CVS"
+      - "Build Tools: grunt, gulp, MSBuild, rake, make, etc."
       - "Bashes: zsh, bash"
       - "Compilers: gcc"
   -
@@ -266,7 +257,7 @@ skills:
       - "Linux, Mac OS X, Windows"
     longlist:
       - "Linux: Deep understanding and experience with kernel internals and various distributions (10 years experience)"
-      - "Mac OS X: Good experience"
+      - "Mac OS X: Very good experience"
       - "Windows: Very good experience"
 
 education:

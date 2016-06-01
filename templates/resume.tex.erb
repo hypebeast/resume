@@ -54,18 +54,21 @@
 
       <% end %>
 
-      \textbf{Projects}
+      <% if company['projects']%>
+        \textbf{Projects}
 
-      <% company['projects'].each do |project| %>
-        \textsl{<%= project['title'] %>}
+        <% company['projects'].each do |project| %>
+          \textsl{<%= project['title'] %>}
 
-        \begin{list2}
-        <% project['description'].each do |line| %>
-        \item <%= line %>
+          \begin{list2}
+          <% project['description'].each do |line| %>
+          \item <%= line %>
+          <% end %>
+          \end{list2}
+
         <% end %>
-        \end{list2}
-
       <% end %>
+
 
     <% end %>
 

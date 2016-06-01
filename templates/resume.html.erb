@@ -99,31 +99,35 @@
             </br></br>
           <% end %>
 
-          <div class="row">
-            <div class="span12">
-              <h4><strong>Projects</strong></h4>
-            </div>
-          </div>
 
-          <% company['projects'].each do |project| %>
+
+          <% if company['projects']%>
             <div class="row">
               <div class="span12">
-                <h4><%= project['title'] %>
-                <a href=" <%= project['link'] %> " target="_BLANK">
-                  <span class="badge">Website</span></a>
-                </h4>
+                <h4><strong>Projects</strong></h4>
               </div>
             </div>
 
-            <div class="row">
-              <div class="span12">
-                <ul>
-                  <% project['description'].each do |item| %>
-                    <li> <%= item %> </li>
-                  <% end %>
-                </ul>
+            <% company['projects'].each do |project| %>
+              <div class="row">
+                <div class="span12">
+                  <h4><%= project['title'] %>
+                  <a href=" <%= project['link'] %> " target="_BLANK">
+                    <span class="badge">Website</span></a>
+                  </h4>
+                </div>
               </div>
-            </div>
+
+              <div class="row">
+                <div class="span12">
+                  <ul>
+                    <% project['description'].each do |item| %>
+                      <li> <%= item %> </li>
+                    <% end %>
+                  </ul>
+                </div>
+              </div>
+            <% end %>
           <% end %>
 
         <% end %>
